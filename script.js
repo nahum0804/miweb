@@ -15,9 +15,10 @@ function addData(input) {
 
     Es correcto?
     `;
-    
+    contenido.appendChild(parrafo);
+
     setTimeout(()=>{
-        contenido.appendChild(parrafo);
+        parrafo.remove();
     },2000)
 
 }
